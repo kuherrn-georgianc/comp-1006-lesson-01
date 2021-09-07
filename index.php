@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <h1><?= $pgData->getTitle() ?></h1>
+    <h1 style="color: red"><?= $pgData->getTitle() ?></h1>
     <p><?= $pgData->getContent() ?></p>
   </body>
 </html>
